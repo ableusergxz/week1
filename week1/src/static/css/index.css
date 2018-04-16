@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .header {
+  width: 100%;
+  height: 200px;
+  background: red;
+  font-size: 50px;
+  line-height: 200px;
+  text-align: center;
+}
+.wrap .section {
+  flex: 1;
+  overflow-x: hidden;
+}
+.wrap .section .swiper-container {
+  width: 100%;
+  height: 400px;
+}
+.wrap .section .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrap .section .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.wrap .section .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .section .list {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.wrap .section .list dl {
+  width: 25%;
+  height: 200px;
+  font-size: 50px;
+}
+.wrap .section .list dl dt {
+  line-height: 200px;
+  text-align: center;
+}
+.wrap .section .list dl dd {
+  text-align: center;
+}
+.wrap .footer {
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  background: #333;
+}
+.wrap .footer ul {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.wrap .footer ul li {
+  width: 25%;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
